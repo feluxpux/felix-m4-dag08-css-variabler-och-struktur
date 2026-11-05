@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--color-text);
+    background-color: #fffaf3;
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+    line-height: 1.2;
+    color: var(--color-heading);
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin: 0 0 var(--space-2);
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin: 12px 0 var(--space-1);
+}
+
+a {
+    color: var(--color-primary);
+    text-underline-offset: 3px;
+}
+
+a:hover {
+    color: #5e0a0a;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #1a73e8;
+    outline-offset: 2px;
+}
